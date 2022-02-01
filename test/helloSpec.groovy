@@ -23,5 +23,5 @@ public class helloSpec extends JenkinsPipelineSpecification {
 		Jenkinsfile.run()
 	then:
 		//1 * getPipelineMock("node")("legacy", _)
-		1 * getPipelineMock("echo")("hello world")
+		1 * getPipelineMock("echo")("hello world!")
 }
